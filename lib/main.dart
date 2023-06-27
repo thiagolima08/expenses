@@ -26,7 +26,11 @@ class ExpensesApp extends StatelessWidget {
                     fontFamily: 'OpenSans',
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black)),
+                    color: Colors.black),
+                labelLarge: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                )),
             appBarTheme: const AppBarTheme(
                 titleTextStyle: TextStyle(
                     fontFamily: 'OpenSans',
